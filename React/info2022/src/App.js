@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+import logo from './img/informatorio.png';
 import './App.css';
 import Noticia from './components/Noticia.js';
+
 
 function App() {
   return (
@@ -8,20 +9,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Etapa 3 Clase React.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
       <Noticia></Noticia>
     </div>
-  );
+  )
 }
 
 export default App;

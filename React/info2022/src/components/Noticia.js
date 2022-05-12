@@ -6,9 +6,9 @@ function Noticia() {
     const { titulo, descripcion } = noticia;
 
     return(
-        <div className="card">
-            <h1 className="card-tittle">{titulo}</h1>
-            <p className="card-content">{descripcion}</p>
+        <div className="">
+            <h1 className="tittle">{titulo}</h1>
+            <p className="body">{descripcion}</p>
         </div>
     )
 }
