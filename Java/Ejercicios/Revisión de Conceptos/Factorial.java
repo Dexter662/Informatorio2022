@@ -7,6 +7,7 @@ public class Factorial {
         Scanner scan = new Scanner(System.in);
         int numero = scan.nextInt();
         System.out.println("El factorial de " + numero + " es: " + factorial(numero));
+        scan.close();
     }
 
     public static int factorial(int valor) {

@@ -13,7 +13,7 @@ public class FactorialProgram {
     public static void main(String[] args) {
         int resultado = 1;
         System.out.println("Ingrese el numero para calcular el factorial");
-        
+
         Scanner scan = new Scanner(System.in);
         int numero = scan.nextInt();
 
@@ -22,5 +22,6 @@ public class FactorialProgram {
         }
 
         System.out.println("El factorial de " + numero + " es: " + resultado);
+        scan.close();
     }
 }

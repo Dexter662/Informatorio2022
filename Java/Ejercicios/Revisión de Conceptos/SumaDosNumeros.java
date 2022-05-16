@@ -11,7 +11,7 @@ public class SumaDosNumeros {
         int numero2 = scan.nextInt();
         resultado = sumar( numero1, numero2 );
         System.out.println("La suma de " + numero1 + " + " + numero2 + " es: " + resultado);
-
+        scan.close();
     }
 
     public static int sumar(int valor1, int valor2) {
