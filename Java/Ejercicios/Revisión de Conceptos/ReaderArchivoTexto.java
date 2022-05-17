@@ -1,9 +1,11 @@
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class ReaderArchivoTexto {
-    public static void main(String [] arg) {
+    public static void main(String [] arg) throws IOException {
         File archivo = null;
         FileReader fl = null;
         BufferedReader br = null;
@@ -14,15 +16,15 @@ public class ReaderArchivoTexto {
             String linea;
             while((linea=br.readLine())!=null)
                 System.out.println(linea);
-        } catch (Exception e) {
-            //TODO: handle exception
+        } catch (FileNotFoundException noFile ) {
+            System.out.println("No se pudo cargar el archivo!, corrobore que el archivo exista!!");
         } finally {
             try{
                 if( null != fl ) {
                     fl.close();
                 }
-            } catch (Exception e2) {
-                e2.printStackTrace();
+            } catch (IOException io) {
+                System.out.println("No se pudo cerrar el objeto reader!");
             }
         }
     }
