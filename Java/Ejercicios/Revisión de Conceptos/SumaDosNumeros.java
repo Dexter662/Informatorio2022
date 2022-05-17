@@ -7,7 +7,7 @@ public class SumaDosNumeros {
 
         System.out.println("Ingrese el primer numero que desea sumar");
         int numero1 = scan.nextInt();
-        System.out.println("Ingrese el primer numero que desea sumar");
+        System.out.println("Ingrese el segundo numero que desea sumar");
         int numero2 = scan.nextInt();
         resultado = sumar( numero1, numero2 );
         System.out.println("La suma de " + numero1 + " + " + numero2 + " es: " + resultado);
