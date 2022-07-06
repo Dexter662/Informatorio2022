@@ -2,3 +2,97 @@
 body {
     font-family: 'Roboto Mono', monospace;
 }
+header{
+    margin-top: 75px;
+}
+.pt-15 {
+    padding-top: 150px !important;
+}
+/*footer*/
+footer {
+    background-color: #f4f6f7;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+footer .social li {
+    display: inline-block;
+    margin: 0 5px;
+}
+footer .social li a {
+    font-size: 100px;
+    color: #6c6c6c;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+footer .social li a:hover {
+    color: #0067f4;
+}
+footer .footer-support {
+    padding-top: 21px;
+}
+footer .footer-support span {
+    font-size: 16px;
+    line-height: 24px;
+    color: #121212;
+    font-weight: 600;
+    margin-top: 9px;
+    display: block;
+}
+@media (max-width: 767px) {
+    footer .footer-support span {
+        display: block;
+    }
+}
+footer .footer-app-store {
+    padding-top: 27px;
+}
+footer .footer-app-store ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    footer .footer-app-store ul li {
+        margin-right: 6px;
+    }
+}
+footer .footer-app-store ul li:last-child {
+    margin-right: 0;
+}
+@media (max-width: 767px) {
+    footer .footer-app-store ul li {
+        width: 120px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    footer .footer-app-store ul li {
+        width: auto;
+    }
+}
+footer .copyright .text {
+    color: #121212;
+}
+footer.footer-dark {
+    background-color: #121212;
+}
+footer.footer-dark .social li a {
+    color: #fff;
+}
+footer.footer-dark .footer-support {
+    padding-top: 21px;
+}
+footer.footer-dark .footer-support span {
+    color: #fff;
+}
+footer.footer-dark .footer-app-store {
+    padding-top: 27px;
+}
+footer.footer-dark .footer-app-store ul li {
+    color: #fff;
+}
+footer.footer-dark .copyright .text {
+    color: #fff;
+}
+
