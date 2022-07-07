@@ -2,6 +2,24 @@
 body {
     font-family: 'Roboto Mono', monospace;
 }
+.arima {
+    font-family: 'Arima', cursive;
+}
+.lobster{
+    font-family: 'Lobster', cursive;
+}
+.great{
+    font-family: 'Great Vibes', cursive;
+}
+.ts-1{
+    font-size: 60px;
+}
+.ts-2{
+    font-size: 80px;
+}
+.ft-30{
+    font-size: 30px;
+}
 header{
     margin-top: 75px;
 }
@@ -46,53 +64,7 @@ footer .footer-support span {
         display: block;
     }
 }
-footer .footer-app-store {
-    padding-top: 27px;
-}
-footer .footer-app-store ul li {
-    display: inline-block;
-    margin-right: 8px;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    footer .footer-app-store ul li {
-        margin-right: 6px;
-    }
-}
-footer .footer-app-store ul li:last-child {
-    margin-right: 0;
-}
-@media (max-width: 767px) {
-    footer .footer-app-store ul li {
-        width: 120px;
-    }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    footer .footer-app-store ul li {
-        width: auto;
-    }
-}
 footer .copyright .text {
     color: #121212;
-}
-footer.footer-dark {
-    background-color: #121212;
-}
-footer.footer-dark .social li a {
-    color: #fff;
-}
-footer.footer-dark .footer-support {
-    padding-top: 21px;
-}
-footer.footer-dark .footer-support span {
-    color: #fff;
-}
-footer.footer-dark .footer-app-store {
-    padding-top: 27px;
-}
-footer.footer-dark .footer-app-store ul li {
-    color: #fff;
-}
-footer.footer-dark .copyright .text {
-    color: #fff;
 }
 
