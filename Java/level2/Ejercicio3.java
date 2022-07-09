@@ -16,7 +16,6 @@ public class Ejercicio3 {
             }
         }
 
-        System.out.println(baraja);
         Collections.sort(baraja);
         System.out.println("Cartas en la baraja: ");
         System.out.println(baraja);
